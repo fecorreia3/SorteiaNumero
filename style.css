@@ -1,0 +1,48 @@
+   body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      max-width: 600px;
+      border-collapse: collapse;
+      text-align: center;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    th {
+      background-color: #ddd;
+    }
+
+    .highlight {
+      background-color: green;
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      table, th, td {
+        font-size: 12px;
+      }
+    }
